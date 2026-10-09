@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origem do Sobrenome Gardenal | History & Genealogy</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3, .serif {
+            font-family: 'Merriweather', serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased leading-relaxed min-h-screen flex flex-col justify-between">
+
+    <!-- Header & Language Selector -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-wrap justify-between items-center gap-4">
+            <div class="flex items-center space-x-3">
+                <i class="fa-solid fa-dna text-amber-700 text-2xl"></i>
+                <span class="font-bold text-xl tracking-tight text-slate-900">Gardenal Genealogy</span>
+            </div>
+            
+            <!-- Language Buttons -->
+            <div class="flex items-center space-x-1 bg-slate-100 p-1 rounded-lg border border-slate-200">
+                <button onclick="setLanguage('pt')" id="btn-pt" class="lang-btn px-3 py-1.5 text-xs font-semibold rounded-md transition-all">
+                    🇵🇹 Português
+                </button>
+                <button onclick="setLanguage('it')" id="btn-it" class="lang-btn px-3 py-1.5 text-xs font-semibold rounded-md transition-all">
+                    🇮🇹 Italiano
+                </button>
+                <button onclick="setLanguage('en')" id="btn-en" class="lang-btn px-3 py-1.5 text-xs font-semibold rounded-md transition-all">
+                    🇬🇧 English
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 py-10 flex-grow w-full">
+        
+        <!-- Hero Section -->
+        <div class="text-center mb-12 border-b border-slate-200 pb-10">
+            <span class="text-amber-800 bg-amber-50 border border-amber-200 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-4 inline-block">
+                <i class="fa-solid fa-scroll mr-1"></i> Genealogia & História
+            </span>
+            <h1 id="title" class="text-3xl md:text-5xl font-extrabold text-slate-900 tracking-tight mt-2 mb-4 leading-tight"></h1>
+            <p id="subtitle" class="text-lg text-slate-600 max-w-2xl mx-auto italic"></p>
+        </div>
+
+        <!-- Intro -->
+        <section class="prose prose-slate max-w-none mb-10 text-slate-700 text-lg leading-relaxed bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-100" id="intro-content">
+        </section>
+
+        <!-- Section 1 -->
+        <section class="mb-10 bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-100">
+            <h2 id="sec1-title" class="text-2xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-3"></h2>
+            <div id="sec1-content" class="text-slate-700 leading-relaxed space-y-4"></div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="mb-10 bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-100">
+            <h2 id="sec2-title" class="text-2xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-3"></h2>
+            <div id="sec2-content" class="text-slate-700 leading-relaxed space-y-4"></div>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="mb-10 bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-100">
+            <h2 id="sec3-title" class="text-2xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-3"></h2>
+            <div id="sec3-content" class="text-slate-700 leading-relaxed space-y-4"></div>
+        </section>
+
+        <!-- Section 4 (Timeline) -->
+        <section class="mb-10 bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-100">
+            <h2 id="sec4-title" class="text-2xl font-bold text-slate-900 mb-6 pb-2 border-b border-slate-100 flex items-center gap-3"></h2>
+            <div id="sec4-content" class="space-y-6"></div>
+        </section>
+
+        <!-- Section 5 -->
+        <section class="mb-10 bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-100">
+            <h2 id="sec5-title" class="text-2xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-3"></h2>
+            <div id="sec5-content" class="text-slate-700 leading-relaxed space-y-4"></div>
+        </section>
+
+        <!-- References -->
+        <section class="bg-slate-100 p-6 md:p-8 rounded-2xl border border-slate-200">
+            <h2 id="sec6-title" class="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+                <i class="fa-solid fa-book-bookmark text-slate-600"></i>
+            </h2>
+            <ol id="references-list" class="list-decimal list-inside space-y-3 text-sm text-slate-600 border-t border-slate-200 pt-4"></ol>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200 py-6 text-center text-sm text-slate-500">
+        <p>&copy; Genealogia da Família Gardenal. Disponível no GitHub Pages.</p>
+    </footer>
+
+    <!-- Translations & Script -->
+    <script>
+        const translations = {
+            pt: {
+                title: "A Origem do Sobrenome Gardenal",
+                subtitle: "Estudo histórico, evolução linguística e mapeamento documental da família.",
+                intro: "Por muito tempo, as origens do sobrenome Gardenal permaneceram baseadas em informações orais passadas de geração em geração. No entanto, o cenário das pesquisas genealógicas evoluiu significativamente nas últimas décadas. A digitalização de registros paroquiais e notariais, o avanço da inteligência artificial que facilitou a pesquisa em vários idiomas (incluindo o Latim), combinada a estudos históricos focados nos territórios que integravam a antiga República de Veneza (697 - 1797), permitiu resgatar estudos e documentos que ajudaram a reconstruir a trajetória do sobrenome.",
+                sec1_title: "1. A Hipótese \"Filho de Gardani\"",
+                sec1_text: "<p>No início dos anos 2000, movidos pelo desejo de resgatar a memória familiar, membros da família Gardenal publicaram um primeiro estudo sobre a história do sobrenome. Naquela oportunidade, adotou-se a hipótese de que <em>Gardenal</em> seria um sobrenome de origem patronímica, significando \"filho ou descendente de Gardani\" (uma derivação de nomes próprios medievais do norte italiano).</p><p>Devemos agradecer imensamente a esse esforço pioneiro, cujo entusiasmo despertou a curiosidade e criou bases para pesquisas futuras. Entretanto, a análise baseada em estudos e documentos atuais nos direciona a descartar a tese de \"filho de Gardani\". Como demonstrado posteriormente, essa associação decorria da metodologia de antigos bancos de dados heráldicos comerciais dos anos 1990 e 2000, que agrupavam sobrenomes graficamente semelhantes (como <em>Gardini</em> ou <em>Gardani</em> com <em>Gardinal</em> e <em>Gardenal</em>) em um mesmo tronco, sem que houvesse uma raiz linguística comum ou fatos históricos demonstrando a transição.</p>",
+                sec2_title: "2. Outras Hipóteses Descartadas: Origem no \"Jardim\"",
+                sec2_text: "<p>Gardini e Gardani têm raiz germânica, significando \"Jardim\" ou recinto protegido. Isso sugeriu outras explicações teóricas baseadas em pesquisas mais superficiais, relacionando o sobrenome a uma origem toponímica (local) ou ocupacional ligada também à palavra \"jardim\" (<em>garden</em> em inglês ou <em>jardin</em> em francês), ou relacionado à flor gardênia, sugerindo que os primeiros portadores seriam cultivadores de jardins.</p><p>Essa hipótese não resiste à análise dos dialetos do Nordeste italiano. Na língua vêneta e nas variantes usadas na península da Ístria, a palavra para jardim é <em>xiardim</em> ou <em>giardino</em>, nunca <em>garden</em>. A semelhança gráfica com a raiz anglo-saxã <em>garden</em> não passa de um falso cognato sem respaldo nas características dos idiomas ou nos documentos medievais da região.</p>",
+                sec3_title: "3. A Origem em Cardinale e a Evolução na Língua Vêneta",
+                sec3_text: "<p>A origem no termo <strong>Cardinale</strong> foi demonstrada por Marino Bonifacio em 2010. Marino é um conhecido acadêmico e autor italiano (nascido em Pirano, 1941) dedicado ao estudo de dialetos, toponomástica e genealogia, autor de obras como o <em>\"Dizionario dei cognomi di Trieste, dell'Istria, del Quarnero e della Dalmazia\"</em>.</p><p>Segundo as pesquisas de Marino, o significado original surgiu como uma alcunha (apelido) aplicada a indivíduos a serviço de cardeais da Igreja Católica (a mais alta posição católica após o Papa). Como segunda possibilidade, uma origem toponímica aplicada a camponeses que residiam e trabalhavam em terras da Igreja; e, por último, como indicativo de características de um indivíduo com postura ou vestimenta associada a um Cardeal. Como a Igreja Católica foi por séculos grande detentora de propriedades, isso justificaria o nascimento de distintas linhagens. Todas as hipóteses relacionam-se a <em>Cardinale</em>, sendo <em>Gardenal</em> uma evolução dialetal arcaica, passando pelas variações <strong>Cardinale &rarr; Cardinal &rarr; Cardenal &rarr; Gardinal &rarr; Gardenàl</strong>.</p><p><strong>Evolução Fonética:</strong> No Veneto e nos dialetos da Ístria, a consoante <em>C</em> no início das palavras sonorizou frequentemente para <em>G</em>, transformando <em>Cardinale</em> em <em>Gardinale</em>. Por fim, a queda da vogal final não acentuada (apócope) consolidou a forma <em>Gardenal</em> ou <em>Gardinal</em>. O sobrenome comprova concordâncias linguísticas entre a Ístria, o Friul, o Vêneto e o Trentino.</p>",
+                sec4_title: "4. Cronologia Histórica, Mapeamento Documental e Migrações",
+                sec4_items: [
+                    { date: "1279", loc: "Salpi, Foggia, Apúlia (Itália)", desc: "É testemunhado um <em>Gualterius dictus Cardinalis</em>." },
+                    { date: "A partir de 1545", loc: "Trentino", desc: "Os encarregados do abastecimento de água aos cardeais durante o Concílio de Trento eram chamados localmente de <em>Gardenài</em>." },
+                    { date: "1448 / 1451", loc: "Pola, Ístria (República de Veneza)", desc: "Em testamento de 5 de fevereiro de 1451, é mencionado o presbítero <strong>Zane Gardenal</strong>, designado em registros de 1448 como <strong>Presbiter Iohannes Cardinal</strong>. Em 1945 ainda existia uma família Gardenal em Pola." },
+                    { date: "1494 / 1495", loc: "Due Castelli e Rovigno, Ístria", desc: "O progenitor da linhagem de Rovigno é <strong>Antonio</strong>, filho do finado <em>Antonio Gardenal</em> (dito <em>Beliaco</em> e <em>Gaiardo de dò Castei</em>). Antonio está comprovado em Rovigno desde 1495. Em 1595 registram-se as famílias <em>Cardinal</em> e <em>Fiorin-Cardenal</em>. Em 1613, <em>Bortolo Gardenal</em> casa-se em Spalato (Split). O ramo extinguiu-se por volta de 1850." },
+                    { date: "1580 — 1610", loc: "Rovigno e Arredores", desc: "Em 31 de janeiro de 1580, <em>Zorzi Gardenal</em> casou-se com Francesca de Rocho (Zorzi nascido ~1560, filho de pai nascido ~1540). Em 3 de novembro de 1610, <em>Bartola Gardenal</em> casou-se, filha de outro Zorzi Gardenal com Domenega." }
+                ],
+                sec5_title: "5. A Fixação no Vêneto",
+                sec5_text: "<p>No século XV existiam rotas terrestres e marítimas, e os portadores do sobrenome Gardenal podem ter-se movido da Ístria e Friul em direção ao centro do Vêneto, ou outras linhagens surgiram diretamente na região ligadas à Igreja.</p><p>A partir dos séculos XVII e XVIII, o sobrenome fixa-se na província de Treviso, em localidades como Conegliano, San Vendemiano, Mareno di Piave, Vazzola, Codognè e Oderzo. Por volta de 1740 nascia <strong>Pietro Gardenal</strong>, o antepassado mais antigo conhecido da linhagem que migraria para Tietê, São Paulo, Brasil em 1897, sendo Pietro bisavô de Giuseppe Gardenal.</p>",
+                sec6_title: "6. Referências Bibliográficas",
+                refs: [
+                    "<strong>BONIFACIO, Marino.</strong> <em>Origine e storia di undici casati dell'Istria</em>. Atti del Centro di Ricerche Storiche di Rovigno, Vol. XL, 2010, pp. 909–942 (seção <em>Cardinale, Cardinal, Cardenal, Gardinal, Gardenàl</em>, pp. 917–918). <a href='https://hrcak.srce.hr/clanak/351350' target='_blank' class='text-amber-800 underline'>[Link]</a>",
+                    "<strong>GARDENAL, Rogerio.</strong> Pesquisa documental de paróquias de Rovigno, Veneza. FamilySearch, Zorzi Gardenal, ID <a href='https://www.familysearch.org/en/tree/pedigree/portrait/PFMB-K28' target='_blank' class='text-amber-800 underline'>PFMB-K28</a> e <a href='https://www.familysearch.org/en/tree/pedigree/portrait/PQ2W-W39' target='_blank' class='text-amber-800 underline'>PQ2W-W39</a>.",
+                    "<strong>RAPELLI, Giorgio.</strong> <em>I cognomi di Verona e del Veronese: panorama etimologico-storico</em> (Vago di Lavagno, Verona, 1995, pp. 128).",
+                    "<strong>DE FRANCESCHI, Camillo.</strong> <em>Notizie storiche di Pola e delle sue famiglie</em>. In: Archeografo Triestino, Trieste, Vol. IX, pp. 282–284. <a href='https://archive.org/details/archeografotrie09triegoog/page/n308/mode/2up' target='_blank' class='text-amber-800 underline'>[Link]</a>",
+                    "<strong>COANA, Gaetano.</strong> Atti e memorie della Società Istriana di Archeologia e Storia Patria, 1886, Vol. II. <a href='https://play.google.com/books/reader?id=siKcDFyRs0UC&pg=GBS.PA134&hl=it' target='_blank' class='text-amber-800 underline'>[Link]</a>",
+                    "<strong>BENUSSI, Bernardo.</strong> <em>Saggio di una storia dell'Istria</em>. Trieste / Centro di Ricerche Storiche di Rovigno."
+                ]
+            },
+            it: {
+                title: "L'Origine del Cognome Gardenal",
+                subtitle: "Studio storico, evoluzione linguistica e mappatura documentale della famiglia.",
+                intro: "Per molto tempo, le origini del cognome Gardenal sono rimaste basate su tradizioni orali tramandate di generazione in generazione. Tuttavia, la ricerca genealogica è evoluta notevolmente negli ultimi decenni. La digitalizzazione dei registri parrocchiali e notarili, unita ai progressi dell'intelligenza artificiale (che ha facilitato la ricerca in più lingue, tra cui il latino) e agli studi storici sui territori dell'antica Repubblica di Venezia (697 - 1797), ha permesso di recuperare documenti fondamentali per ricostruire la storia del cognome.",
+                sec1_title: "1. L'Ipotesi \"Figlio di Gardani\"",
+                sec1_text: "<p>All'inizio degli anni 2000, spinti dal desiderio di riscoprire la memoria familiare, alcuni membri della famiglia Gardenal pubblicarono un primo studio. In quell'occasione fu adottata l'ipotesi che <em>Gardenal</em> fosse un cognome patronimico, con il significato di \"figlio o discendente di Gardani\" (derivazione di nomi propri medievali dell'Italia settentrionale).</p><p>Va espresso un sincero ringraziamento per questo sforzo pionieristico. Tuttavia, l'analisi basata su documenti e studi attuali porta a scartare la tesi del \"figlio di Gardani\". Come dimostrato in seguito, questa associazione derivava dalle metodologie dei vecchi database araldici commerciali degli anni '90 e 2000, che raggruppavano cognomi graficamente simili (come <em>Gardini</em> o <em>Gardani</em> con <em>Gardinal</em> e <em>Gardenal</em>) senza che vi fosse una radice linguistica comune o prove storiche della transizione.</p>",
+                sec2_title: "2. Altre Ipotesi Scartate: Origine da \"Giardino\"",
+                sec2_text: "<p>Gardini e Gardani hanno una radice germanica che significa \"giardino\" o recinto protetto. Ciò ha suggerito altre spiegazioni teoriche superficiali che associavano il cognome a un'origine toponomastica o occupazionale legata alla parola \"giardino\" (<em>garden</em> in inglese, <em>jardin</em> in francese) o alla gardenia.</p><p>Questa ipotesi non regge all'analisi dei dialetti del Nord-Est italiano. In lingua veneta e nelle varianti istriane, la parola per giardino è <em>xiardim</em> o <em>giardino</em>, mai <em>garden</em>. La somiglianza grafica con la radice anglosassone <em>garden</em> è solo un falso cognato senza alcun riscontro nei documenti medievali della regione.</p>",
+                sec3_title: "3. L'Origine da Cardinale e l'Evoluzione Veneta",
+                sec3_text: "<p>L'origine dal termine <strong>Cardinale</strong> è stata dimostrata da Marino Bonifacio nel 2010. Bonifacio è un noto studioso ed etnografo (nato a Pirano nel 1941) specializzato nello studio dei dialetti e della toponomastica, autore del famoso <em>\"Dizionario dei cognomi di Trieste, dell'Istria, del Quarnero e della Dalmazia\"</em>.</p><p>Secondo le ricerche di Marino, il significato originale nacque come soprannome applicato a individui al servizio dei cardinali della Chiesa Cattolica. In alternativa, come origine toponomastica per i contadini che lavoravano nelle terre della Chiesa, o per indicare persone con atteggiamenti o abiti associabili a un Cardinale. La Chiesa fu per secoli una grande proprietaria terriera, il che giustifica la nascita di diverse linee familiari. Tutte le ipotesi riconducono a <em>Cardinale</em>, di cui <em>Gardenal</em> è un'evoluzione dialettale arcaica: <strong>Cardinale &rarr; Cardinal &rarr; Cardenal &rarr; Gardinal &rarr; Gardenàl</strong>.</p><p><strong>Evoluzione Fonetica:</strong> Nel Veneto e in Istria, la consonante iniziale <em>C</em> si è spesso sonorizzata in <em>G</em>, trasformando <em>Cardinale</em> in <em>Gardinale</em>. Infine, la caduta della vocale finale non accentata ha consolidato la forma <em>Gardenal</em> o <em>Gardinal</em>.</p>",
+                sec4_title: "4. Cronologia Storica e Mappatura Documentale",
+                sec4_items: [
+                    { date: "1279", loc: "Salpi, Foggia, Apulia (Italia)", desc: "Viene menzionato un <em>Gualterius dictus Cardinalis</em>." },
+                    { date: "Dal 1545", loc: "Trentino", desc: "Gli incaricati dell'approvvigionamento idrico per i cardinali durante il Concilio di Trento venivano chiamati localmente <em>Gardenài</em>." },
+                    { date: "1448 / 1451", loc: "Pola, Istria (Repubblica di Venezia)", desc: "In un testamento del 5 febbraio 1451 viene menzionato il presbitero <strong>Zane Gardenal</strong>, indicato nel 1448 come <strong>Presbiter Iohannes Cardinal</strong>. Nel 1945 esisteva ancora una famiglia Gardenal a Pola." },
+                    { date: "1494 / 1495", loc: "Due Castelli e Rovigno, Istria", desc: "Il capostipite del ramo di Rovigno è <strong>Antonio</strong>, figlio del fu <em>Antonio Gardenal</em> (detto <em>Beliaco</em>). Antonio è attestato a Rovigno dal 1495. Nel 1595 sono registrate le famiglie <em>Cardinal</em> e <em>Fiorin-Cardenal</em>. Il ramo si è estinto verso il 1850." },
+                    { date: "1580 — 1610", loc: "Rovigno e Dintorni", desc: "Il 31 gennaio 1580, <em>Zorzi Gardenal</em> sposa Francesca de Rocho (Zorzi nato ~1560). Il 3 novembre 1610 si sposa <em>Bartola Gardenal</em>, figlia di un altro Zorzi Gardenal."
+                ],
+                sec5_title: "5. L'Insediamento nel Veneto",
+                sec5_text: "<p>Nel XV secolo, attraverso le rotte commerciali, i portatori del cognome si spostarono dall'Istria e dal Friuli verso il centro del Veneto, oppure nacquero autonomamente altri ceppi legati alla Chiesa.</p><p>A partire dal XVII e XVIII secolo, il cognome si consolida nella provincia di Treviso (Conegliano, San Vendemiano, Mareno di Piave, Vazzola, Codognè, Oderzo). Intorno al 1740 nasce <strong>Pietro Gardenal</strong>, il più antico antenato conosciuto del ramo che emigrerà a Tietê (San Paolo, Brasile) nel 1897, sendo Pietro bisnonno di Giuseppe Gardenal.</p>",
+                sec6_title: "6. Riferimenti Bibliografici",
+                refs: [
+                    "<strong>BONIFACIO, Marino.</strong> <em>Origine e storia di undici casati dell'Istria</em>. Atti del Centro di Ricerche Storiche di Rovigno, Vol. XL, 2010, pp. 909–942. <a href='https://hrcak.srce.hr/clanak/351350' target='_blank' class='text-amber-800 underline'>[Link]</a>",
+                    "<strong>GARDENAL, Rogerio.</strong> Ricerca documentale nelle parrocchie di Rovigno. FamilySearch, Zorzi Gardenal, ID <a href='https://www.familysearch.org/en/tree/pedigree/portrait/PFMB-K28' target='_blank' class='text-amber-800 underline'>PFMB-K28</a> e <a href='https://www.familysearch.org/en/tree/pedigree/portrait/PQ2W-W39' target='_blank' class='text-amber-800 underline'>PQ2W-W39</a>.",
+                    "<strong>RAPELLI, Giorgio.</strong> <em>I cognomi di Verona e del Veronese: panorama etimologico-storico</em> (Verona, 1995, pp. 128).",
+                    "<strong>DE FRANCESCHI, Camillo.</strong> <em>Notizie storiche di Pola e delle sue famiglie</em>. In: Archeografo Triestino, Vol. IX, pp. 282–284. <a href='https://archive.org/details/archeografotrie09triegoog/page/n308/mode/2up' target='_blank' class='text-amber-800 underline'>[Link]</a>",
+                    "<strong>COANA, Gaetano.</strong> Atti e memorie della Società Istriana di Archeologia e Storia Patria, 1886. <a href='https://play.google.com/books/reader?id=siKcDFyRs0UC&pg=GBS.PA134&hl=it' target='_blank' class='text-amber-800 underline'>[Link]</a>",
+                    "<strong>BENUSSI, Bernardo.</strong> <em>Saggio di una storia dell'Istria</em>. Trieste / Centro di Ricerche Storiche di Rovigno."
+                ]
+            },
+            en: {
+                title: "The Origin of the Surname Gardenal",
+                subtitle: "Historical research, linguistic evolution, and documentary mapping of the family.",
+                intro: "For a long time, the origins of the Gardenal surname relied on oral traditions passed down through generations. However, genealogical research has advanced significantly in recent decades. The digitization of parish and notarial records, combined with AI tools and historical studies focusing on the Republic of Venice (697–1797), has made it possible to retrieve documents that reconstruct the true lineage of the surname.",
+                sec1_title: "1. The \"Son of Gardani\" Hypothesis",
+                sec1_text: "<p>In the early 2000s, driven by a desire to preserve family history, members of the Gardenal family published an initial study. At the time, it adopted the hypothesis that <em>Gardenal</em> was a patronymic surname meaning \"son or descendant of Gardani\" (a derivation of medieval northern Italian first names).</p><p>We are grateful for this pioneering effort. However, modern documentation leads us to discard the \"son of Gardani\" theory. This association stemmed from commercial heraldic databases of the 1990s and 2000s, which grouped visually similar surnames (such as <em>Gardini</em> or <em>Gardani</em> with <em>Gardenal</em>) without common linguistic roots or historical evidence.</p>",
+                sec2_title: "2. Discarded Hypotheses: Origin from \"Garden\"",
+                sec2_text: "<p>Gardini and Gardani have Germanic roots meaning \"garden\" or enclosed space. This led to superficial theories associating the surname with occupational or place names related to gardens or the gardenia flower.</p><p>This hypothesis fails when analyzing Northeastern Italian dialects. In Venetian and Istrian dialects, the word for garden is <em>xiardim</em> or <em>giardino</em>, never <em>garden</em>. The similarity to the Anglo-Saxon word <em>garden</em> is merely a false cognate with no historical foundation in the region.</p>",
+                sec3_title: "3. Origin from Cardinale and Venetian Linguistic Evolution",
+                sec3_text: "<p>The origin in the word <strong>Cardinale</strong> (Cardinal) was demonstrated by scholar Marino Bonifacio in 2010 in his research on Istrian and Venetian surnames.</p><p>According to Bonifacio, the surname originated as a nickname given to individuals in the service of Catholic Cardinals. Other possibilities include a locational origin for peasants living on Church lands, or a descriptive nickname for someone whose demeanor resembled a Cardinal. Because the Church was a major landowner for centuries, multiple branches emerged independently. All evidence points to <em>Cardinale</em>, with <em>Gardenal</em> being an archaic dialectal evolution: <strong>Cardinale &rarr; Cardinal &rarr; Cardenal &rarr; Gardinal &rarr; Gardenàl</strong>.</p><p><strong>Phonetic Evolution:</strong> In Venetian and Istrian dialects, the initial <em>C</em> sound voiced into <em>G</em>, changing <em>Cardinale</em> to <em>Gardinale</em>. The dropping of the unaccented final vowel (apocope) established the form <em>Gardenal</em> or <em>Gardinal</em>.</p>",
+                sec4_title: "4. Historical Timeline and Documented Migration",
+                sec4_items: [
+                    { date: "1279", loc: "Salpi, Foggia, Apulia (Italy)", desc: "A <em>Gualterius dictus Cardinalis</em> is documented." },
+                    { date: "From 1545", loc: "Trentino", desc: "Workers responsible for supplying water to cardinals during the Council of Trent were locally called <em>Gardenài</em>." },
+                    { date: "1448 / 1451", loc: "Pula, Istria (Republic of Venice)", desc: "A 1451 will mentions <strong>Zane Gardenal</strong>, recorded in 1448 as <strong>Presbiter Iohannes Cardinal</strong>. In 1945, a Gardenal family still lived in Pula." },
+                    { date: "1494 / 1495", loc: "Due Castelli and Rovinj, Istria", desc: "The ancestor of the Rovinj line is <strong>Antonio</strong>, son of the late <em>Antonio Gardenal</em>. Antonio is recorded in Rovinj in 1495. By 1595, families named <em>Cardinal</em> and <em>Fiorin-Cardenal</em> are recorded. This line became extinct around 1850." },
+                    { date: "1580 — 1610", loc: "Rovinj & Surroundings", desc: "On January 31, 1580, <em>Zorzi Gardenal</em> married Francesca de Rocho. On November 3, 1610, <em>Bartola Gardenal</em> married, daughter of another Zorzi Gardenal."
+                ],
+                sec5_title: "5. Settlement in Veneto",
+                sec5_text: "<p>In the 15th century, trade routes facilitated movement from Istria and Friuli toward central Veneto, or separate lines arose directly in Veneto associated with Church properties.</p><p>By the 17th and 18th centuries, the surname became established in the Treviso province (Conegliano, San Vendemiano, Mareno di Piave, Vazzola, Codognè, Oderzo). Around 1740, <strong>Pietro Gardenal</strong> was born—the earliest known ancestor of the lineage that emigrated to Tietê, São Paulo, Brazil in 1897.</p>",
+                sec6_title: "6. Bibliographical References",
+                refs: [
+                    "<strong>BONIFACIO, Marino.</strong> <em>Origine e storia di undici casati dell'Istria</em>. Atti del Centro di Ricerche Storiche di Rovigno, Vol. XL, 2010, pp. 909–942. <a href='https://hrcak.srce.hr/clanak/351350' target='_blank' class='text-amber-800 underline'>[Link]</a>",
+                    "<strong>GARDENAL, Rogerio.</strong> Parish record research in Rovinj. FamilySearch IDs <a href='https://www.familysearch.org/en/tree/pedigree/portrait/PFMB-K28' target='_blank' class='text-amber-800 underline'>PFMB-K28</a> and <a href='https://www.familysearch.org/en/tree/pedigree/portrait/PQ2W-W39' target='_blank' class='text-amber-800 underline'>PQ2W-W39</a>.",
+                    "<strong>RAPELLI, Giorgio.</strong> <em>I cognomi di Verona e del Veronese: panorama etimologico-storico</em> (1995, pp. 128).",
+                    "<strong>DE FRANCESCHI, Camillo.</strong> <em>Notizie storiche di Pola e delle sue famiglie</em>. Archeografo Triestino, Vol. IX, pp. 282–284. <a href='https://archive.org/details/archeografotrie09triegoog/page/n308/mode/2up' target='_blank' class='text-amber-800 underline'>[Link]</a>",
+                    "<strong>COANA, Gaetano.</strong> Atti e memorie della Società Istriana di Archeologia e Storia Patria, 1886. <a href='https://play.google.com/books/reader?id=siKcDFyRs0UC&pg=GBS.PA134&hl=it' target='_blank' class='text-amber-800 underline'>[Link]</a>",
+                    "<strong>BENUSSI, Bernardo.</strong> <em>Saggio di una storia dell'Istria</em>. Trieste / Centro di Ricerche Storiche di Rovigno."
+                ]
+            }
+        };
+
+        function setLanguage(lang) {
+            if (!translations[lang]) lang = 'en';
+            localStorage.setItem('preferred_lang', lang);
+
+            // Update Text Contents
+            document.getElementById('title').innerText = translations[lang].title;
+            document.getElementById('subtitle').innerText = translations[lang].subtitle;
+            document.getElementById('intro-content').innerHTML = translations[lang].intro;
+
+            document.getElementById('sec1-title').innerHTML = `<i class="fa-solid fa-circle-xmark text-red-500"></i> ` + translations[lang].sec1_title;
+            document.getElementById('sec1-content').innerHTML = translations[lang].sec1_text;
+
+            document.getElementById('sec2-title').innerHTML = `<i class="fa-solid fa-seedling text-emerald-600"></i> ` + translations[lang].sec2_title;
+            document.getElementById('sec2-content').innerHTML = translations[lang].sec2_text;
+
+            document.getElementById('sec3-title').innerHTML = `<i class="fa-solid fa-church text-amber-700"></i> ` + translations[lang].sec3_title;
+            document.getElementById('sec3-content').innerHTML = translations[lang].sec3_text;
+
+            // Timeline
+            document.getElementById('sec4-title').innerHTML = `<i class="fa-solid fa-timeline text-blue-600"></i> ` + translations[lang].sec4_title;
+            const timelineHtml = translations[lang].sec4_items.map(item => `
+                <div class="flex flex-col md:flex-row gap-2 md:gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200/80">
+                    <div class="md:w-1/4">
+                        <span class="font-bold text-amber-800 bg-amber-100/60 px-2.5 py-1 rounded text-sm inline-block">${item.date}</span>
+                        <div class="text-xs font-medium text-slate-500 mt-1">${item.loc}</div>
+                    </div>
+                    <div class="md:w-3/4 text-sm text-slate-700 leading-relaxed">${item.desc}</div>
+                </div>
+            `).join('');
+            document.getElementById('sec4-content').innerHTML = timelineHtml;
+
+            document.getElementById('sec5-title').innerHTML = `<i class="fa-solid fa-map-location-dot text-indigo-600"></i> ` + translations[lang].sec5_title;
+            document.getElementById('sec5-content').innerHTML = translations[lang].sec5_text;
+
+            document.getElementById('sec6-title').innerHTML = `<i class="fa-solid fa-book-bookmark text-slate-600"></i> ` + translations[lang].sec6_title;
+            document.getElementById('references-list').innerHTML = translations[lang].refs.map(r => `<li>${r}</li>`).join('');
+
+            // Button Styles Update
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('bg-amber-700', 'text-white', 'shadow-sm');
+                btn.classList.add('text-slate-600', 'hover:bg-slate-200');
+            });
+            const activeBtn = document.getElementById(`btn-${lang}`);
+            if (activeBtn) {
+                activeBtn.classList.remove('text-slate-600', 'hover:bg-slate-200');
+                activeBtn.classList.add('bg-amber-700', 'text-white', 'shadow-sm');
+            }
+        }
+
+        // Auto Detect Browser Language
+        function detectLanguage() {
+            const savedLang = localStorage.getItem('preferred_lang');
+            if (savedLang) return savedLang;
+
+            const userLang = (navigator.language || navigator.userLanguage).toLowerCase();
+            if (userLang.startsWith('it')) return 'it';
+            if (userLang.startsWith('pt')) return 'pt';
+            return 'en'; // default for all other cases
+        }
+
+        // Initialize Page
+        document.addEventListener('DOMContentLoaded', () => {
+            const initialLang = detectLanguage();
+            setLanguage(initialLang);
+        });
+    </script>
+</body>
+</html>
