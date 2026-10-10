@@ -7,6 +7,9 @@ permalink: /en/
 
 # **The Origin of the Surname Gardenal**
 
+**Watch the video in YouTube**
+[![Watch the video in YouTube](https://img.youtube.com/vi/Eh9gaL2ONFM/maxresdefault.jpg)](https://youtu.be/Eh9gaL2ONFM)
+
   For a long time, the origins of the Gardenal surname remained based on oral information passed down from generation to generation. However, the landscape of genealogical research has evolved significantly in recent decades. The digitization of parish and notarial records, the advancement of artificial intelligence that facilitated research in several languages, including Latin, combined with historical studies focused on the territories that made up the former Republic of Venice (697 - 1797), allowed the retrieval of studies and documents that helped to reconstruct the trajectory of the surname.
 
 ### **1. The "Son of Gardani" Hypothesis**
