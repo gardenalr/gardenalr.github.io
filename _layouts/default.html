@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
-        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar { width: 7px; height: 7px; }
         ::-webkit-scrollbar-track { background: #f8fafc; }
         ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
@@ -100,7 +100,6 @@
             box-shadow: 0 2px 4px rgba(180, 83, 9, 0.25);
         }
 
-        /* Target animation when scrolling to references */
         :target {
             animation: highlight-pulse 2s ease-out;
         }
@@ -119,6 +118,12 @@
             border: 1px solid #f1ece1;
             border-radius: 0.75rem;
             padding: 1rem 1.25rem 1rem 2.25rem;
+        }
+
+        .toc-link.active {
+            color: #78350f !important;
+            font-weight: 600 !important;
+            background-color: rgba(254, 243, 199, 0.7) !important;
         }
     </style>
 
@@ -159,18 +164,25 @@
 
     <!-- Navigation Header -->
     <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-stone-200/80 shadow-xs transition-all">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
-            <a href="{% if page.lang == 'it' %}/it/{% elsif page.lang == 'en' %}/en/{% else %}/{% endif %}" class="flex items-center space-x-3 group">
-                <span class="w-9 h-9 rounded-xl bg-amber-900/10 border border-amber-900/20 flex items-center justify-center text-amber-900 group-hover:bg-amber-900 group-hover:text-white transition-all duration-300">
-                    <i class="fa-solid fa-scroll text-sm"></i>
-                </span>
-                <div class="flex flex-col">
-                    <span class="font-display font-bold text-base sm:text-lg tracking-tight text-stone-900">Gardenal</span>
-                    <span class="text-[10px] tracking-wider uppercase font-semibold text-amber-800 hidden sm:inline-block">Genealogia &amp; História</span>
-                </div>
-            </a>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
+            <!-- Left: Mobile Menu Button + Brand -->
+            <div class="flex items-center gap-3">
+                <button type="button" onclick="toggleSidebar()" class="lg:hidden p-2 rounded-lg text-stone-600 hover:text-stone-900 hover:bg-stone-100 transition-colors" aria-label="Menu de capítulos">
+                    <i class="fa-solid fa-bars-staggered text-lg"></i>
+                </button>
 
-            <!-- Language Switcher Buttons -->
+                <a href="{% if page.lang == 'it' %}/it/{% elsif page.lang == 'en' %}/en/{% else %}/{% endif %}" class="flex items-center space-x-3 group">
+                    <span class="w-9 h-9 rounded-xl bg-amber-900/10 border border-amber-900/20 flex items-center justify-center text-amber-900 group-hover:bg-amber-900 group-hover:text-white transition-all duration-300">
+                        <i class="fa-solid fa-scroll text-sm"></i>
+                    </span>
+                    <div class="flex flex-col">
+                        <span class="font-display font-bold text-base sm:text-lg tracking-tight text-stone-900">Gardenal</span>
+                        <span class="text-[10px] tracking-wider uppercase font-semibold text-amber-800 hidden sm:inline-block">Genealogia &amp; História</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Right: Language Switcher Buttons -->
             <nav class="flex items-center p-1 bg-stone-100/90 rounded-xl border border-stone-200 text-xs shadow-inner" aria-label="Language Selector">
                 <button type="button"
                     onclick="chooseLanguage('pt', '/')"
@@ -202,62 +214,126 @@
         </div>
     </header>
 
-    <!-- Main Container -->
-    <main class="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12 w-full flex-grow">
-        <!-- Hero Title Card -->
-        <header class="mb-10 text-center pb-8 border-b border-stone-200">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest bg-amber-100/70 text-amber-900 border border-amber-200/80 mb-5 shadow-xs">
-                <i class="fa-solid fa-compass text-amber-700"></i>
-                {% if page.lang == 'it' %}
-                Studio Genealogico &amp; Linguistico
-                {% elsif page.lang == 'en' %}
-                Genealogical &amp; Linguistic Research
-                {% else %}
-                Estudo Genealógico &amp; Linguístico
-                {% endif %}
+    <!-- Main Container with Sidebar + Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-10 w-full flex-grow flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
+        
+        <!-- Backdrop for mobile drawer -->
+        <div id="sidebar-backdrop" onclick="toggleSidebar()" class="fixed inset-0 bg-stone-900/40 backdrop-blur-xs z-40 hidden lg:hidden transition-opacity"></div>
+
+        <!-- Left Pane: Chapter & Section Navigation -->
+        <aside id="sidebar-pane" class="fixed inset-y-0 left-0 z-50 w-72 bg-white p-6 shadow-2xl lg:shadow-none lg:bg-transparent lg:p-0 lg:static lg:w-64 lg:shrink-0 lg:sticky lg:top-24 lg:self-start lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto transform -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out">
+            
+            <!-- Mobile Close Button -->
+            <div class="flex items-center justify-between pb-4 mb-4 border-b border-stone-200 lg:hidden">
+                <span class="font-display font-bold text-stone-900">Navegação</span>
+                <button type="button" onclick="toggleSidebar()" class="p-1.5 text-stone-500 hover:text-stone-900 rounded-lg hover:bg-stone-100">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
             </div>
-            <h1 class="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-stone-900 tracking-tight leading-tight mb-4">
-                {{ page.title }}
-            </h1>
-            <p class="text-stone-600 text-base sm:text-lg max-w-2xl mx-auto italic font-serif">
-                {% if page.lang == 'it' %}
-                Dalle antiche origini nella Repubblica di Venezia alle migrazioni nel Veneto e nel mondo.
-                {% elsif page.lang == 'en' %}
-                From ancient roots in the Republic of Venice to migrations across Veneto and overseas.
-                {% else %}
-                Das antigas raízes na República de Veneza às migrações no interior do Vêneto e no Brasil.
-                {% endif %}
-            </p>
-        </header>
 
-        <!-- Markdown Article Content -->
-        <article class="article-content prose prose-stone prose-base sm:prose-lg max-w-none
-            prose-headings:font-serif prose-headings:font-bold prose-headings:text-stone-900
-            prose-h2:text-2xl sm:prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-5 prose-h2:border-b prose-h2:border-stone-200 prose-h2:pb-2.5 prose-h2:text-stone-900
-            prose-h3:text-xl sm:prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-h3:text-amber-950
-            prose-h4:text-lg sm:prose-h4:text-xl prose-h4:mt-6 prose-h4:mb-3 prose-h4:text-stone-800
-            prose-p:text-stone-700 prose-p:leading-relaxed
-            prose-strong:text-stone-900 prose-strong:font-semibold
-            prose-a:text-amber-800 prose-a:font-medium
-            prose-li:text-stone-700 prose-li:my-1
-            prose-blockquote:border-l-4 prose-blockquote:border-amber-700 prose-blockquote:bg-stone-100/60 prose-blockquote:py-2 prose-blockquote:px-5 prose-blockquote:rounded-r-xl prose-blockquote:text-stone-700
-        ">
-            {{ content }}
-        </article>
+            <!-- Chapters / Posts Group -->
+            <div class="mb-8">
+                <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-900/80 mb-3 px-2">
+                    <i class="fa-solid fa-book-open"></i>
+                    <span>{% if page.lang == 'it' %}Capitoli{% elsif page.lang == 'en' %}Chapters{% else %}Capítulos{% endif %}</span>
+                </div>
+                <nav class="space-y-1.5">
+                    {% assign cur_lang = page.lang | default: 'pt' %}
+                    {% for chap in site.data.chapters %}
+                        {% assign chap_url = chap.url[cur_lang] %}
+                        {% assign chap_title = chap.title[cur_lang] %}
+                        {% assign is_active = false %}
+                        {% if chap.id == 'origem' %}
+                            {% assign is_active = true %}
+                        {% endif %}
 
-        <!-- Back to Top Button -->
-        <div class="mt-12 pt-6 border-t border-stone-200 flex justify-between items-center text-xs text-stone-500">
-            <span>{% if page.lang == 'it' %}Renderizzato direttamente da Markdown{% elsif page.lang == 'en' %}Rendered directly from Markdown{% else %}Renderizado diretamente de Markdown{% endif %}</span>
-            <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="flex items-center gap-1.5 font-medium text-amber-800 hover:text-amber-950 transition-colors">
-                <i class="fa-solid fa-arrow-up"></i>
-                {% if page.lang == 'it' %}Torna su{% elsif page.lang == 'en' %}Back to top{% else %}Voltar ao topo{% endif %}
-            </button>
-        </div>
-    </main>
+                        {% if chap.status == 'published' %}
+                            <a href="{{ chap_url }}" class="group flex items-start gap-2.5 p-2.5 rounded-xl transition-all duration-200 {% if is_active %}bg-amber-100/70 text-amber-950 font-semibold ring-1 ring-amber-900/10 shadow-xs{% else %}text-stone-600 hover:bg-stone-100 hover:text-stone-900{% endif %}">
+                                <span class="text-xs font-mono px-1.5 py-0.5 rounded bg-white/80 border border-stone-200/80 text-amber-900 shrink-0 mt-0.5">{{ chap.number }}</span>
+                                <span class="text-sm leading-snug">{{ chap_title }}</span>
+                            </a>
+                        {% else %}
+                            <div class="flex items-start gap-2.5 p-2.5 rounded-xl opacity-60 cursor-not-allowed">
+                                <span class="text-xs font-mono px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200 text-stone-400 shrink-0 mt-0.5">{{ chap.number }}</span>
+                                <div class="flex flex-col">
+                                    <span class="text-sm leading-snug text-stone-500">{{ chap_title }}</span>
+                                    <span class="text-[10px] font-medium text-amber-800 uppercase tracking-wide mt-0.5">{% if page.lang == 'it' %}In arrivo{% elsif page.lang == 'en' %}Coming soon{% else %}Em breve{% endif %}</span>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </nav>
+            </div>
+
+            <!-- In this Chapter: Live Auto-TOC -->
+            <div>
+                <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-900/80 mb-3 px-2">
+                    <i class="fa-solid fa-list-ul"></i>
+                    <span>{% if page.lang == 'it' %}In questo capitolo{% elsif page.lang == 'en' %}In this chapter{% else %}Neste capítulo{% endif %}</span>
+                </div>
+                <nav id="chapter-toc" class="space-y-1 border-l-2 border-stone-200 pl-2 text-xs">
+                    <!-- Populated dynamically via JS from headings -->
+                </nav>
+            </div>
+        </aside>
+
+        <!-- Right Main Article -->
+        <main class="flex-1 min-w-0 max-w-3xl w-full">
+            <!-- Hero Title Card -->
+            <header class="mb-10 pb-8 border-b border-stone-200">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest bg-amber-100/70 text-amber-900 border border-amber-200/80 mb-5 shadow-xs">
+                    <i class="fa-solid fa-compass text-amber-700"></i>
+                    {% if page.lang == 'it' %}
+                    Studio Genealogico &amp; Linguistico &bull; Capitolo 01
+                    {% elsif page.lang == 'en' %}
+                    Genealogical &amp; Linguistic Research &bull; Chapter 01
+                    {% else %}
+                    Estudo Genealógico &amp; Linguístico &bull; Capítulo 01
+                    {% endif %}
+                </div>
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-stone-900 tracking-tight leading-tight mb-4">
+                    {{ page.title }}
+                </h1>
+                <p class="text-stone-600 text-base sm:text-lg italic font-serif">
+                    {% if page.lang == 'it' %}
+                    Dalle antiche origini nella Repubblica di Venezia alle migrazioni nel Veneto e nel mondo.
+                    {% elsif page.lang == 'en' %}
+                    From ancient roots in the Republic of Venice to migrations across Veneto and overseas.
+                    {% else %}
+                    Das antigas raízes na República de Veneza às migrações no interior do Vêneto e no Brasil.
+                    {% endif %}
+                </p>
+            </header>
+
+            <!-- Markdown Article Content -->
+            <article class="article-content prose prose-stone prose-base sm:prose-lg max-w-none
+                prose-headings:font-serif prose-headings:font-bold prose-headings:text-stone-900
+                prose-h2:text-2xl sm:prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-5 prose-h2:border-b prose-h2:border-stone-200 prose-h2:pb-2.5 prose-h2:text-stone-900
+                prose-h3:text-xl sm:prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-h3:text-amber-950
+                prose-h4:text-lg sm:prose-h4:text-xl prose-h4:mt-6 prose-h4:mb-3 prose-h4:text-stone-800
+                prose-p:text-stone-700 prose-p:leading-relaxed
+                prose-strong:text-stone-900 prose-strong:font-semibold
+                prose-a:text-amber-800 prose-a:font-medium
+                prose-li:text-stone-700 prose-li:my-1
+                prose-blockquote:border-l-4 prose-blockquote:border-amber-700 prose-blockquote:bg-stone-100/60 prose-blockquote:py-2 prose-blockquote:px-5 prose-blockquote:rounded-r-xl prose-blockquote:text-stone-700
+            ">
+                {{ content }}
+            </article>
+
+            <!-- Back to Top Button -->
+            <div class="mt-12 pt-6 border-t border-stone-200 flex justify-between items-center text-xs text-stone-500">
+                <span>{% if page.lang == 'it' %}Renderizzato direttamente da Markdown{% elsif page.lang == 'en' %}Rendered directly from Markdown{% else %}Renderizado diretamente de Markdown{% endif %}</span>
+                <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="flex items-center gap-1.5 font-medium text-amber-800 hover:text-amber-950 transition-colors">
+                    <i class="fa-solid fa-arrow-up"></i>
+                    {% if page.lang == 'it' %}Torna su{% elsif page.lang == 'en' %}Back to top{% else %}Voltar ao topo{% endif %}
+                </button>
+            </div>
+        </main>
+    </div>
 
     <!-- Footer -->
     <footer class="bg-white border-t border-stone-200 mt-12 py-8 text-center text-xs sm:text-sm text-stone-500">
-        <div class="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
             <p>&copy; Genealogia da Família Gardenal. Hospedado no GitHub Pages.</p>
             <div class="flex items-center gap-4 text-stone-400">
                 <a href="https://github.com/gardenalr/gardenalr.github.io" target="_blank" rel="noopener" class="hover:text-stone-700 flex items-center gap-1 transition-colors">
@@ -268,14 +344,83 @@
         </div>
     </footer>
 
-    <!-- Reading Progress Indicator -->
+    <!-- Interactive Scripts: Sidebar, ScrollSpy, Progress Bar -->
     <script>
+        // Progress Bar
         window.addEventListener('scroll', () => {
             const docHeight = document.documentElement.scrollHeight - window.innerHeight;
             if (docHeight > 0) {
                 const scrolled = (window.scrollY / docHeight) * 100;
                 document.getElementById('progress-bar').style.width = scrolled + '%';
             }
+        });
+
+        // Mobile Sidebar Toggle
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar-pane');
+            const backdrop = document.getElementById('sidebar-backdrop');
+            const isClosed = sidebar.classList.contains('-translate-x-full');
+            
+            if (isClosed) {
+                sidebar.classList.remove('-translate-x-full');
+                backdrop.classList.remove('hidden');
+            } else {
+                sidebar.classList.add('-translate-x-full');
+                backdrop.classList.add('hidden');
+            }
+        }
+
+        // Generate In-Chapter TOC & Setup Scrollspy
+        document.addEventListener('DOMContentLoaded', () => {
+            const headings = document.querySelectorAll('.article-content h2, .article-content h3');
+            const tocContainer = document.getElementById('chapter-toc');
+            if (!tocContainer || headings.length === 0) return;
+
+            headings.forEach((heading, idx) => {
+                if (!heading.id) {
+                    heading.id = 'sec-' + idx;
+                }
+                const link = document.createElement('a');
+                link.href = '#' + heading.id;
+                link.className = 'toc-link block py-1.5 px-2.5 rounded-lg text-stone-600 hover:text-stone-900 hover:bg-stone-100 transition-all duration-150 leading-snug';
+                link.innerText = heading.innerText.trim();
+                
+                link.addEventListener('click', (e) => {
+                    if (window.innerWidth < 1024) {
+                        const sidebar = document.getElementById('sidebar-pane');
+                        const backdrop = document.getElementById('sidebar-backdrop');
+                        sidebar.classList.add('-translate-x-full');
+                        backdrop.classList.add('hidden');
+                    }
+                });
+
+                tocContainer.appendChild(link);
+            });
+
+            // Scrollspy with IntersectionObserver
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px 0px -70% 0px',
+                threshold: 0
+            };
+
+            const tocLinks = document.querySelectorAll('.toc-link');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.getAttribute('id');
+                        tocLinks.forEach(link => {
+                            if (link.getAttribute('href') === '#' + id) {
+                                link.classList.add('active');
+                            } else {
+                                link.classList.remove('active');
+                            }
+                        });
+                    }
+                });
+            }, observerOptions);
+
+            headings.forEach(heading => observer.observe(heading));
         });
     </script>
 </body>
