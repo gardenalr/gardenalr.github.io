@@ -7,6 +7,8 @@ permalink: /
 
 # **A Origem do Sobrenome Gardenal**
 
+<iframe class="w-full aspect-video rounded-2xl shadow-md my-6" src="https://www.youtube.com/watch?v=Eh9gaL2ONFM" title="A Origem do Sobrenome Gardenal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
   Por muito tempo, as origens do sobrenome Gardenal permaneceram baseadas em informações orais passadas de geração em geração. No entanto, o cenário das pesquisas genealógicas evoluiu significativamente nas últimas décadas. A digitalização de registros paroquiais e notariais, o avanço da inteligência artificial que facilitou a pesquisa em vários idiomas, incluindo o Latim, combinada a estudos históricos focados nos territórios que integravam a antiga República de Veneza (697 - 1797), permitiu resgatar estudos e documentos que ajudaram a reconstruir a trajetória do sobrenome.
 
 ### **1. A Hipótese "Filho de Gardani"**
