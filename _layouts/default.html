@@ -53,6 +53,22 @@
             width: 0%;
         }
 
+        /* Fixed tab width and paragraph indentation */
+        * {
+            tab-size: 4;
+            -moz-tab-size: 4;
+        }
+
+        /* Fixed tab indent for article paragraphs (~4 spaces) */
+        .article-content p {
+            text-indent: 1.75rem;
+        }
+        .article-content blockquote p,
+        .article-content li p,
+        .article-content .no-indent {
+            text-indent: 0;
+        }
+
         .article-content h1 {
             display: none;
         }
@@ -287,9 +303,28 @@
         <main class="flex-1 min-w-0 max-w-3xl w-full">
             <!-- Hero Title Card -->
             <header class="mb-10 pb-8 border-b border-stone-200">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest bg-amber-100/70 text-amber-900 border border-amber-200/80 mb-5 shadow-xs">
+                    <i class="fa-solid fa-compass text-amber-700"></i>
+                    {% if page.lang == 'it' %}
+                    Studio Genealogico &amp; Linguistico &bull; Capitolo 01
+                    {% elsif page.lang == 'en' %}
+                    Genealogical &amp; Linguistic Research &bull; Chapter 01
+                    {% else %}
+                    Estudo Genealógico &amp; Linguístico &bull; Capítulo 01
+                    {% endif %}
+                </div>
                 <h1 class="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-stone-900 tracking-tight leading-tight mb-4">
                     {{ page.title }}
                 </h1>
+                <p class="text-stone-600 text-base sm:text-lg italic font-serif">
+                    {% if page.lang == 'it' %}
+                    Dalle antiche origini nella Repubblica di Venezia alle migrazioni nel Veneto e nel mondo.
+                    {% elsif page.lang == 'en' %}
+                    From ancient roots in the Republic of Venice to migrations across Veneto and overseas.
+                    {% else %}
+                    Das antigas raízes na República de Veneza às migrações no interior do Vêneto e no Brasil.
+                    {% endif %}
+                </p>
             </header>
 
             <!-- Markdown Article Content -->
