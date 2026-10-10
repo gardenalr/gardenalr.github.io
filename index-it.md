@@ -7,6 +7,9 @@ permalink: /it/
 
 # **L'Origine del Cognome Gardenal**
 
+**Guarda il video su YouTube**
+[![Guarda il video su YouTube](https://img.youtube.com/vi/Eh9gaL2ONFM/maxresdefault.jpg)](https://youtu.be/Eh9gaL2ONFM)
+
   Per molto tempo, le origini del cognome Gardenal sono rimaste basate su tradizioni orali tramandate di generazione in generazione. Tuttavia, il panorama della ricerca genealogica si è evoluto significativamente negli ultimi decenni. La digitalizzazione dei registri parrocchiali e notarili, i progressi dell'intelligenza artificiale che hanno facilitato la ricerca in più lingue, tra cui il latino, combinati a studi storici incentrati sui territori che costituivano l'antica Repubblica di Venezia (697 - 1797), hanno permesso di recuperare studi e documenti che hanno aiutato a ricostruire la storia e la traiettoria del cognome.
 
 ### **1. L'Ipotesi "Figlio di Gardani"**
