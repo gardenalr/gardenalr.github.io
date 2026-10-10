@@ -58,7 +58,7 @@ Seguindo o caminho indicado por Marino, realizei pesquisas adicionais em documen
 
 ### **5. A Fixação no Vêneto**
 
-  No século XV existiam rotas terrestres e marítimas entre a Ístria, o Friul, Trento e o Vêneto. Não é possível afirmar, se os descendentes migraram para a direção mais central no Vêneto, ou outras linhagens de Gardenal podem ter surgido diretamente no Vêneto em algum momento, seguindo a tradição de sobrenome derivado da ligação com o trabalho relacionado aos Cardeais da Igreja Católica.
+  No século XV existiam rotas terrestres e marítimas entre a Ístria, o Friul, Trento e o Vêneto. Não é possível afirmar se os descendentes migraram para a direção mais central no Vêneto, ou outras linhagens de Gardenal podem ter surgido diretamente no Vêneto em algum momento, seguindo a tradição de sobrenome derivado da ligação com o trabalho relacionado aos Cardeais da Igreja Católica.
 
   É fato que partir dos séculos XVIII e XIV, o sobrenome é identificado no interior do Vêneto, mais especificamente na província de Treviso, onde fixaram-se em localidades como Conegliano, San Vendemiano, Mareno di Piave, Vazzola, Codognè e Oderzo.
 
