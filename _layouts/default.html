@@ -75,7 +75,7 @@
         }
 
         /* Citation links [1], [2], etc. rendered as superscript badges */
-        .article-content a[href^="#6"] {
+        .article-content a[href^="#ref-"], .article-content a[href^="#6"] {
             font-size: 0.72rem;
             vertical-align: super;
             line-height: 1;
@@ -92,7 +92,7 @@
             justify-content: center;
             transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
         }
-        .article-content a[href^="#6"]:hover {
+        .article-content a[href^="#ref-"]:hover, .article-content a[href^="#6"]:hover {
             background-color: #b45309;
             color: #ffffff;
             border-color: #b45309;
@@ -100,8 +100,14 @@
             box-shadow: 0 2px 4px rgba(180, 83, 9, 0.25);
         }
 
-        :target {
-            animation: highlight-pulse 2s ease-out;
+        span[id^="ref-"] {
+            scroll-margin-top: 130px;
+            display: inline-block;
+        }
+        li:has(span[id^="ref-"]:target), li:target {
+            animation: highlight-pulse 2.5s ease-out;
+            border-radius: 0.5rem;
+            padding: 0.25rem 0.5rem;
         }
         @keyframes highlight-pulse {
             0% { background-color: rgba(254, 243, 199, 0.8); }

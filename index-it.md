@@ -25,50 +25,50 @@ Questa ipotesi non regge all'analisi dei dialetti del Nord-Est italiano. Nella l
 
 L'origine del cognome da *Cardinale* è stata dimostrata da Marino Bonifacio nel 2010. Marino è un noto accademico e autore italiano (nato a Pirano, 1941) dedito allo studio di dialetti, toponomastica e genealogia. È famoso per aver scritto opere come il “Dizionario dei cognomi di Trieste, dell'Istria, del Quarnero e della Dalmazia”, che traccia l'origine storica di migliaia di cognomi di quella regione.
 
-Secondo le ricerche di Marino, il significato originario nacque come soprannome applicato a individui al servizio dei cardinali della Chiesa Cattolica. Cardinale, la più alta carica cattolica dopo il Papa. Come seconda possibilità, un'origine toponomastica, applicata ai contadini che risiedevano e lavoravano sulle terre della Chiesa, e infine come indicazione di caratteristiche distintive di un individuo che aveva una postura o un abbigliamento associato a un Cardinale. È importante ricordare che la Chiesa Cattolica fu per secoli un grande proprietario terriero, il che giustificherebbe la nascita di diversi lignaggi del cognome Gardenal. Pertanto, in base a questo ragionamento, tutte le ipotesi sono legate a Cardinale, essendo Gardenal un'arcaica evoluzione dialettale di Cardinale, passando per le varianti Cardinale, Cardinal, Cardenal, Gardinal, Gardenàl. [1](#6.-riferimenti-bibliografici)
+Secondo le ricerche di Marino, il significato originario nacque come soprannome applicato a individui al servizio dei cardinali della Chiesa Cattolica. Cardinale, la più alta carica cattolica dopo il Papa. Come seconda possibilità, un'origine toponomastica, applicata ai contadini che risiedevano e lavoravano sulle terre della Chiesa, e infine come indicazione di caratteristiche distintive di un individuo che aveva una postura o un abbigliamento associato a un Cardinale. È importante ricordare che la Chiesa Cattolica fu per secoli un grande proprietario terriero, il che giustificherebbe la nascita di diversi lignaggi del cognome Gardenal. Pertanto, in base a questo ragionamento, tutte le ipotesi sono legate a Cardinale, essendo Gardenal un'arcaica evoluzione dialettale di Cardinale, passando per le varianti Cardinale, Cardinal, Cardenal, Gardinal, Gardenàl. [1](#ref-1)
 
-L'evoluzione fonetica si è verificata nel Veneto e nei dialetti dell'Istria, dove la consonante C all'inizio delle parole si è spesso sonorizzata in G, trasformando *Cardinale* in *Gardinale*. Infine, la caduta della vocale finale non accentata (apocope) ha consolidato la forma *Gardenal* o *Gardinal*. [1](#6.-riferimenti-bibliografici)
+L'evoluzione fonetica si è verificata nel Veneto e nei dialetti dell'Istria, dove la consonante C all'inizio delle parole si è spesso sonorizzata in G, trasformando *Cardinale* in *Gardinale*. Infine, la caduta della vocale finale non accentata (apocope) ha consolidato la forma *Gardenal* o *Gardinal*. [1](#ref-1)
 
 Il cognome testimonia le concordanze linguistiche tra Istria, Friuli, Veneto e Trentino.
 
 ### **4. Cronologia Storica, Mappatura Documentale e Migrazioni**
 
-Nella penisola italiana si trova a Salpi, Foggia, in Puglia, dove nel 1279 è attestato un *Gualterius dictus Cardinalis*. [1](#6.-riferimenti-bibliografici)
+Nella penisola italiana si trova a Salpi, Foggia, in Puglia, dove nel 1279 è attestato un *Gualterius dictus Cardinalis*. [1](#ref-1)
 
-Nel Trentino, ad esempio, gli incaricati dell'approvvigionamento idrico dei cardinali durante il Concilio di Trento (dal 1545 in poi) erano chiamati localmente *Gardenài*. [3](#6.-riferimenti-bibliografici)
+Nel Trentino, ad esempio, gli incaricati dell'approvvigionamento idrico dei cardinali durante il Concilio di Trento (dal 1545 in poi) erano chiamati localmente *Gardenài*. [3](#ref-3)
 
-Già con la grafia Gardenal, la ricerca documentale rivela che il cognome si trovava in Istria circa due secoli e mezzo prima di essere registrato in Friuli (dove appare alla Colombara di Aquileia dal 1693 con *Gioseffo* e suo fratello *Gardinali*). [1](#6.-riferimenti-bibliografici)
+Già con la grafia Gardenal, la ricerca documentale rivela che il cognome si trovava in Istria circa due secoli e mezzo prima di essere registrato in Friuli (dove appare alla Colombara di Aquileia dal 1693 con *Gioseffo* e suo fratello *Gardinali*). [1](#ref-1)
 
-A **Pola, Istria (1448 / 1451), Repubblica di Venezia**, oggi parte della Croazia, in un testamento del 5 febbraio 1451, viene menzionato il presbitero **Zane Gardenal**, designato anche in registri precedenti del 1448 come **Presbiter Iohannes Cardinal**. Nella lingua veneta, Zane è la forma parlata del nome italiano Giovanni, mentre Iohannes è la forma latina usata per scrivere lo stesso nome. Nel 1945 esisteva ancora una famiglia Gardenal a Pola composta da due persone. [1](#6.-riferimenti-bibliografici) [4](#6.-riferimenti-bibliografici)
+A **Pola, Istria (1448 / 1451), Repubblica di Venezia**, oggi parte della Croazia, in un testamento del 5 febbraio 1451, viene menzionato il presbitero **Zane Gardenal**, designato anche in registri precedenti del 1448 come **Presbiter Iohannes Cardinal**. Nella lingua veneta, Zane è la forma parlata del nome italiano Giovanni, mentre Iohannes è la forma latina usata per scrivere lo stesso nome. Nel 1945 esisteva ancora una famiglia Gardenal a Pola composta da due persone. [1](#ref-1) [4](#ref-4)
 
-**A Due Castelli e Rovigno, Istria (1494 / 1495), Repubblica di Venezia**, oggi anch'essa parte della Croazia: Il capostipite del lignaggio di Rovigno è **Antonio**, figlio del defunto *Antonio Gardenal* (detto *Beliaco* e *Gaiardo de dò Castei*, cioè proveniente da *Due Castelli*). Antonio è attestato a Rovigno dal 1495. [1](#6.-riferimenti-bibliografici)
+**A Due Castelli e Rovigno, Istria (1494 / 1495), Repubblica di Venezia**, oggi anch'essa parte della Croazia: Il capostipite del lignaggio di Rovigno è **Antonio**, figlio del defunto *Antonio Gardenal* (detto *Beliaco* e *Gaiardo de dò Castei*, cioè proveniente da *Due Castelli*). Antonio è attestato a Rovigno dal 1495. [1](#ref-1)
 
-Nel 1595, a Rovigno sono registrate le famiglie *Cardinal* e *Fiorin-Cardenal*. [1](#6.-riferimenti-bibliografici) [5](#6.-riferimenti-bibliografici)
+Nel 1595, a Rovigno sono registrate le famiglie *Cardinal* e *Fiorin-Cardenal*. [1](#ref-1) [5](#ref-5)
 
-Nel 1613, *Bortolo Gardenal* di Rovigno si sposa a Spalato (Split). [1](#6.-riferimenti-bibliografici)
+Nel 1613, *Bortolo Gardenal* di Rovigno si sposa a Spalato (Split). [1](#ref-1)
 
-Il ramo storico di Rovigno si estinse intorno al 1850. [1](#6.-riferimenti-bibliografici)
+Il ramo storico di Rovigno si estinse intorno al 1850. [1](#ref-1)
 
 **Sempre a Rovigno e Dintorni (dal 1580 al 1610):**
 
 Seguendo il percorso indicato da Marino, ho condotto ulteriori ricerche nei documenti parrocchiali istriani e ho trovato altri registri nel XVI secolo.
 
-* Il 31 gennaio 1580, Zorzi Gardenal sposò Francesca de Rocho; pertanto Zorzi era nato intorno al 1560, figlio di un padre Gardenal nato intorno al 1540. In lingua veneta, Zorzi è la forma del nome Giorgio in italiano. [2](#6.-riferimenti-bibliografici)
-* Il 3 novembre 1610 si sposò Bartola Gardenal, figlia di un altro Zorzi Gardenal e di Domenega, nata intorno al 1570. [2](#6.-riferimenti-bibliografici)
+* Il 31 gennaio 1580, Zorzi Gardenal sposò Francesca de Rocho; pertanto Zorzi era nato intorno al 1560, figlio di un padre Gardenal nato intorno al 1540. In lingua veneta, Zorzi è la forma del nome Giorgio in italiano. [2](#ref-2)
+* Il 3 novembre 1610 si sposò Bartola Gardenal, figlia di un altro Zorzi Gardenal e di Domenega, nata intorno al 1570. [2](#ref-2)
 
 ### **5. L'Insediamento nel Veneto**
 
-Nel XV secolo esistevano rotte terrestri e marittime e i portatori del cognome Gardenal, sebbene non sia possibile affermarlo con certezza, potrebbero essersi spostati dall'Istria e dal Friuli verso una direzione più centrale nel Veneto, oppure altri lignaggi potrebbero essere sorti direttamente nel Veneto a un certo punto, seguendo il legame con i Cardinali della Chiesa Cattolica.
+Nel XV secolo esistevano rotte terrestri e marittime tra l'Istria, il Friuli, Trento e il Veneto. Non è possibile affermare con certezza se i discendenti siano migrati verso il cuore del Veneto, oppure se altri rami dei Gardenal siano sorti direttamente nel Veneto in qualche momento, seguendo la tradizione del cognome derivato dal legame con il lavoro al servizio dei Cardinali della Chiesa Cattolica.
 
-È un dato di fatto che dal XVII e XVIII secolo, il cognome si identifica nell'entroterra veneto, più precisamente in provincia di Treviso, dove si insediarono in località come Conegliano, San Vendemiano, Mareno di Piave, Vazzola, Codognè e Oderzo.
+È un dato di fatto che a partire dai secoli XVIII e XIX, il cognome è documentato nell'entroterra veneto, più precisamente nella provincia di Treviso, dove si insediarono in località come Conegliano, San Vendemiano, Mareno di Piave, Vazzola, Codognè e Oderzo.
 
-Intorno al 1740 nacque Pietro Gardenal, il più antico antenato noto del lignaggio che sarebbe emigrato a Tietê, San Paolo, Brasile nel 1897, sendo Pietro bisnonno di Giuseppe Gardenal.
+Intorno al 1740 nacque Pietro Gardenal, il più antico antenato noto del lignaggio che sarebbe emigrato nella città di Tietê, San Paolo, Brasile nel 1897. Il responsabile di aver condotto una gran parte della famiglia in cerca di opportunità fu Giuseppe Gardenal, pronipote di Pietro Gardenal. Ma questa storia fa parte di un prossimo capitolo.
 
-### **6. Riferimenti Bibliografici** {#6.-riferimenti-bibliografici}
+### **6. Riferimenti Bibliografici**
 
-1. **BONIFACIO, Marino.** *Origine e storia di undici casati dell'Istria*. Atti del Centro di Ricerche Storiche di Rovigno, Vol. XL, 2010, pp. 909–942 (in particolare la sezione *Cardinale, Cardinal, Cardenal, Gardinal, Gardenàl*, pp. 917–918). [Link](https://hrcak.srce.hr/clanak/351350)
-2. **GARDENAL, Rogerio.** Ricerca documentale nelle parrocchie di Rovigno, Venezia. FamilySearch, Zorzi Gardenal, ID [PFMB-K28](https://www.familysearch.org/en/tree/pedigree/portrait/PFMB-K28) e [PQ2W-W39](https://www.familysearch.org/en/tree/pedigree/portrait/PQ2W-W39).
-3. **RAPELLI, Giorgio**. *I cognomi di Verona e del Veronese: panorama etimologico-storico* (Vago di Lavagno, Verona, 1995, pp. 128).
-4. **DE FRANCESCHI, Camillo.** *Notizie storiche di Pola e delle sue famiglie*. In: **Archeografo Triestino**, Società di Minerva, Trieste, Vol. IX, pp. 282–284 (Trascrizione dei registri di *Presbiter Johannes Cardinal* / *Pre' Zane Gardenal*). [Link](https://archive.org/details/archeografotrie09triegoog/page/n308/mode/2up)
-5. **COANA, Gaetano.** Atti e memorie della Società Istriana di Archeologia e Storia Patria, 1886, Volume II, Fascicolo 1o e 2o [Link](https://play.google.com/books/reader?id=siKcDFyRs0UC&pg=GBS.PA134&hl=it)
-6. **BENUSSI, Bernardo.** *Saggio di una storia dell'Istria*. Trieste / Centro di Ricerche Storiche di Rovigno.
+1. <span id="ref-1"></span>**BONIFACIO, Marino.** *Origine e storia di undici casati dell'Istria*. Atti del Centro di Ricerche Storiche di Rovigno, Vol. XL, 2010, pp. 909–942 (in particolare la sezione *Cardinale, Cardinal, Cardenal, Gardinal, Gardenàl*, pp. 917–918). [Link](https://hrcak.srce.hr/clanak/351350)
+2. <span id="ref-2"></span>**GARDENAL, Rogerio.** Ricerca documentale nelle parrocchie di Rovigno, Venezia. FamilySearch, Zorzi Gardenal, ID [PFMB-K28](https://www.familysearch.org/en/tree/pedigree/portrait/PFMB-K28) e [PQ2W-W39](https://www.familysearch.org/en/tree/pedigree/portrait/PQ2W-W39).
+3. <span id="ref-3"></span>**RAPELLI, Giorgio**. *I cognomi di Verona e del Veronese: panorama etimologico-storico* (Vago di Lavagno, Verona, 1995, pp. 128).
+4. <span id="ref-4"></span>**DE FRANCESCHI, Camillo.** *Notizie storiche di Pola e delle sue famiglie*. In: **Archeografo Triestino**, Società di Minerva, Trieste, Vol. IX, pp. 282–284 (Trascrizione dei registri di *Presbiter Johannes Cardinal* / *Pre' Zane Gardenal*). [Link](https://archive.org/details/archeografotrie09triegoog/page/n308/mode/2up)
+5. <span id="ref-5"></span>**COANA, Gaetano.** Atti e memorie della Società Istriana di Archeologia e Storia Patria, 1886, Volume II, Fascicolo 1o e 2o [Link](https://play.google.com/books/reader?id=siKcDFyRs0UC&pg=GBS.PA134&hl=it)
+6. <span id="ref-6"></span>**BENUSSI, Bernardo.** *Saggio di una storia dell'Istria*. Trieste / Centro di Ricerche Storiche di Rovigno.
