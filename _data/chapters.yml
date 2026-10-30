@@ -5,10 +5,12 @@
     pt: "A Origem do Sobrenome Gardenal"
     it: "L'Origine del Cognome Gardenal"
     en: "The Origin of the Surname Gardenal"
+    fr: "L'Origine du Nom de Famille Gardenal"
   url:
     pt: "/"
     it: "/it/"
     en: "/en/"
+    fr: "/fr/"
 
 - id: imigracao
   number: "02"
@@ -17,7 +19,9 @@
     pt: ""
     it: ""
     en: ""
+    fr: ""
   url:
     pt: "#"
     it: "#"
     en: "#"
+    fr: "#"
