@@ -18,7 +18,7 @@
     <meta property="og:site_name" content="Genealogia Gardenal">
     <meta property="og:title" content="{{ page.title }} | Genealogia Gardenal">
     <meta property="og:description" content="Estudo histórico, evolução linguística e mapeamento documental da família e sobrenome Gardenal. Pesquisa por Rogerio Gardenal.">
-    <meta property="og:url" content="https://gardenalr.github.io{% if page.lang == 'it' %}/it/{% elsif page.lang == 'en' %}/en/{% else %}/{% endif %}">
+    <meta property="og:url" content="https://gardenalr.github.io{% if page.lang == 'it' %}/it/{% elsif page.lang == 'en' %}/en/{% elsif page.lang == 'fr' %}/fr/{% else %}/{% endif %}">
     <meta property="article:author" content="Rogerio Gardenal">
     <meta property="article:published_time" content="2026-10-01">
 
@@ -43,7 +43,7 @@
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://gardenalr.github.io{% if page.lang == 'it' %}/it/{% elsif page.lang == 'en' %}/en/{% else %}/{% endif %}"
+        "@id": "https://gardenalr.github.io{% if page.lang == 'it' %}/it/{% elsif page.lang == 'en' %}/en/{% elsif page.lang == 'fr' %}/fr/{% else %}/{% endif %}"
       },
       "keywords": [
         "Gardenal",
@@ -59,6 +59,7 @@
     <link rel="alternate" hreflang="pt" href="https://gardenalr.github.io/" />
     <link rel="alternate" hreflang="it" href="https://gardenalr.github.io/it/" />
     <link rel="alternate" hreflang="en" href="https://gardenalr.github.io/en/" />
+    <link rel="alternate" hreflang="fr" href="https://gardenalr.github.io/fr/" />
     <link rel="alternate" hreflang="x-default" href="https://gardenalr.github.io/" />
 
     <!-- Google Fonts -->
@@ -212,6 +213,7 @@
             const browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
             if (browserLang.startsWith('it')) target = 'it';
             else if (browserLang.startsWith('en')) target = 'en';
+            else if (browserLang.startsWith('fr')) target = 'fr';
             else target = 'pt';
           }
           
@@ -219,6 +221,8 @@
             window.location.replace('/it/');
           } else if (target === 'en') {
             window.location.replace('/en/');
+          } else if (target === 'fr') {
+            window.location.replace('/fr/');
           }
         }
       })();
@@ -242,7 +246,7 @@
                     <i class="fa-solid fa-bars-staggered text-lg"></i>
                 </button>
 
-                <a href="{% if page.lang == 'it' %}/it/{% elsif page.lang == 'en' %}/en/{% else %}/{% endif %}" class="flex items-center space-x-3 group">
+                <a href="{% if page.lang == 'it' %}/it/{% elsif page.lang == 'en' %}/en/{% elsif page.lang == 'fr' %}/fr/{% else %}/{% endif %}" class="flex items-center space-x-3 group">
                     <span class="w-9 h-9 rounded-xl bg-amber-900/10 border border-amber-900/20 flex items-center justify-center text-amber-900 group-hover:bg-amber-900 group-hover:text-white transition-all duration-300">
                         <i class="fa-solid fa-scroll text-sm"></i>
                     </span>
@@ -281,6 +285,15 @@
                     <span class="hidden sm:inline">English</span>
                     <span class="sm:hidden font-bold">EN</span>
                 </button>
+
+                <button type="button"
+                    onclick="chooseLanguage('fr', '/fr/')"
+                    class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all duration-200 flex items-center gap-1.5 {% if page.lang == 'fr' %}bg-white text-stone-900 shadow-sm font-semibold ring-1 ring-stone-900/5{% else %}text-stone-600 hover:text-stone-900 hover:bg-white/60{% endif %}"
+                    title="Français">
+                    <span>🇫🇷</span>
+                    <span class="hidden sm:inline">Français</span>
+                    <span class="sm:hidden font-bold">FR</span>
+                </button>
             </nav>
         </div>
     </header>
@@ -306,7 +319,7 @@
             <div class="mb-8">
                 <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-900/80 mb-3 px-2">
                     <i class="fa-solid fa-book-open"></i>
-                    <span>{% if page.lang == 'it' %}Capitoli{% elsif page.lang == 'en' %}Chapters{% else %}Capítulos{% endif %}</span>
+                    <span>{% if page.lang == 'it' %}Capitoli{% elsif page.lang == 'en' %}Chapters{% elsif page.lang == 'fr' %}Chapitres{% else %}Capítulos{% endif %}</span>
                 </div>
                 <nav class="space-y-1.5">
                     {% assign cur_lang = page.lang | default: 'pt' %}
@@ -328,7 +341,7 @@
                                 <span class="text-xs font-mono px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200 text-stone-400 shrink-0 mt-0.5">{{ chap.number }}</span>
                                 <div class="flex flex-col">
                                     <span class="text-sm leading-snug text-stone-500">{{ chap_title }}</span>
-                                    <span class="text-[10px] font-medium text-amber-800 uppercase tracking-wide mt-0.5">{% if page.lang == 'it' %}In arrivo{% elsif page.lang == 'en' %}Coming soon{% else %}Em breve{% endif %}</span>
+                                    <span class="text-[10px] font-medium text-amber-800 uppercase tracking-wide mt-0.5">{% if page.lang == 'it' %}In arrivo{% elsif page.lang == 'en' %}Coming soon{% elsif page.lang == 'fr' %}Bientôt disponible{% else %}Em breve{% endif %}</span>
                                 </div>
                             </div>
                         {% endif %}
@@ -340,7 +353,7 @@
             <div>
                 <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-900/80 mb-3 px-2">
                     <i class="fa-solid fa-list-ul"></i>
-                    <span>{% if page.lang == 'it' %}In questo capitolo{% elsif page.lang == 'en' %}In this chapter{% else %}Neste capítulo{% endif %}</span>
+                    <span>{% if page.lang == 'it' %}In questo capitolo{% elsif page.lang == 'en' %}In this chapter{% elsif page.lang == 'fr' %}Dans ce chapitre{% else %}Neste capítulo{% endif %}</span>
                 </div>
                 <nav id="chapter-toc" class="space-y-1 border-l-2 border-stone-200 pl-2 text-xs">
                     <!-- Populated dynamically via JS from headings -->
@@ -368,6 +381,8 @@
                             Ottobre 2026
                             {% elsif page.lang == 'en' %}
                             October 2026
+                            {% elsif page.lang == 'fr' %}
+                            Octobre 2026
                             {% else %}
                             Outubro de 2026
                             {% endif %}
@@ -397,10 +412,10 @@
 
             <!-- Back to Top Button -->
             <div class="mt-12 pt-6 border-t border-stone-200 flex justify-between items-center text-xs text-stone-500">
-                <span>{% if page.lang == 'it' %}Renderizzato direttamente da Markdown{% elsif page.lang == 'en' %}Rendered directly from Markdown{% else %}Renderizado diretamente de Markdown{% endif %}</span>
+                <span>{% if page.lang == 'it' %}Renderizzato direttamente da Markdown{% elsif page.lang == 'en' %}Rendered directly from Markdown{% elsif page.lang == 'fr' %}Rendu directement à partir de Markdown{% else %}Renderizado diretamente de Markdown{% endif %}</span>
                 <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="flex items-center gap-1.5 font-medium text-amber-800 hover:text-amber-950 transition-colors">
                     <i class="fa-solid fa-arrow-up"></i>
-                    {% if page.lang == 'it' %}Torna su{% elsif page.lang == 'en' %}Back to top{% else %}Voltar ao topo{% endif %}
+                    {% if page.lang == 'it' %}Torna su{% elsif page.lang == 'en' %}Back to top{% elsif page.lang == 'fr' %}Retour en haut{% else %}Voltar ao topo{% endif %}
                 </button>
             </div>
         </main>
