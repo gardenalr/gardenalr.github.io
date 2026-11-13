@@ -34,6 +34,8 @@ permalink: /it/
 
   Il cognome testimonia le concordanze linguistiche tra Istria, Friuli, Veneto e Trentino.
 
+  Oltre a Marino Bonifacio, prima di lui, Emidio De Felice nel 1978 pubblicò sull'origine da Cardinali: *"Cardinali. VARIANTI: Cardinale. ALTERATI: Cardinalétti. Diffuso in tutta l'Italia, ma con maggiore frequenza per Cardinale nel Centro-Sud e in Liguria, continua, attraverso un soprannome originario, il nome medievale Cardinale, da cardinale, la massima carica ecclesiastica dopo il papa: la motivazione del soprannome è varia, non più accertabile o definibile."* [7](#ref-7)
+
 ### **4. Cronologia Storica, Mappatura Documentale e Migrazioni**
 
   Nella penisola italiana si trova a Salpi, Foggia, in Puglia, dove nel 1279 è attestato un *Gualterius dictus Cardinalis*. [1](#ref-1)
@@ -75,3 +77,4 @@ Seguendo il percorso indicato da Marino, ho condotto ulteriori ricerche nei docu
 4. <span id="ref-4"></span>**DE FRANCESCHI, Camillo.** *Notizie storiche di Pola e delle sue famiglie*. In: **Archeografo Triestino**, Società di Minerva, Trieste, Vol. IX, pp. 282–284 (Trascrizione dei registri di *Presbiter Johannes Cardinal* / *Pre' Zane Gardenal*). [Link](https://archive.org/details/archeografotrie09triegoog/page/n308/mode/2up)
 5. <span id="ref-5"></span>**COANA, Gaetano.** Atti e memorie della Società Istriana di Archeologia e Storia Patria, 1886, Volume II, Fascicolo 1o e 2o [Link](https://play.google.com/books/reader?id=siKcDFyRs0UC&pg=GBS.PA134&hl=it)
 6. <span id="ref-6"></span>**BENUSSI, Bernardo.** *Saggio di una storia dell'Istria*. Trieste / Centro di Ricerche Storiche di Rovigno.
+7. <span id="ref-7"></span>**DE FELICE, Emidio.** *Dizionario dei cognomi italiani.* Milano: A. Mondadori, 1978. [Link](https://archive.org/details/bwb_O6-AZU-866)
