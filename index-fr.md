@@ -8,7 +8,7 @@ permalink: /fr/
 # **L'Origine du Nom de Famille Gardenal**
 
 **Regarder la vidéo sur YouTube**
-[![Regarder la vidéo sur YouTube](https://gardenalr.github.io/Youtube_Cover_Player.jpg)](https://youtu.be/Eh9gaL2ONFM)
+[![Regarder la vidéo sur YouTube](https://gardenalr.github.io/img/Youtube_Cover_Player.jpg)](https://youtu.be/Eh9gaL2ONFM)
 
   Pendant longtemps, les origines du nom de famille Gardenal sont restées fondées sur des informations orales transmises de génération en génération. Cependant, le paysage de la recherche généalogique a considérablement évolué au cours des dernières décennies. La numérisation des registres paroissiaux et notariaux, les progrès de l'intelligence artificielle, qui ont facilité la recherche dans plusieurs langues, dont le latin, ainsi que les études historiques consacrées aux territoires qui composaient l'ancienne République de Venise (697 - 1797), ont permis de retrouver des études et des documents qui ont aidé à reconstituer la trajectoire du nom.
 
