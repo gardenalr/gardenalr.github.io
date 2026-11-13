@@ -30,6 +30,8 @@ permalink: /
 
   Segundo as pesquisas de Marino, o significado original surgiu como uma alcunha (apelido) aplicada a indivíduos a serviço de cardeais da Igreja Católica. Cardinale, a mais alta posição católica após o Papa. Como segunda possibilidade a origem toponímica, aplicado a camponeses que residiam e trabalhavam em terras da Igreja, e por último como indicativo de características distintivas de um indivíduo que tinha postura ou vestimenta associada a um Cardeal. É importante lembrar que a Igreja católica foi por séculos grande detentora de propriedades, o que justificaria o nascimento de distintas linhagens do sobrenome Gardenal. Portanto, baseando-se nesse racional, todas as hipóteses estão relacionadas a Cardinale, sendo Gardenal uma evolução dialetal arcaica de Cardinale (Cardeal), passando pelas variações Cardinale, Cardinal, Cardenal, Gardinal, Gardenàl. [1](#ref-1)
 
+  Além de Marino Bonifácio, antes dele, Emidio de Felice em 1978 publicou sobre a origem em Cardinale,  "Cardinali. VARIANTES: Cardinale. ALTERADOS: Cardinalétti. Difundido em toda a Itália, mas com maior frequência para Cardinale no Centro-Sul e na Ligúria, continua, através de um apelido originário, o nome medieval Cardinale, de cardeal, o mais alto dignitário, depois do pontífice, da Igreja Católica: a motivação do apelido é variada, não sendo mais recuperável ou definível." [7](#ref-7)
+  
   A evolução fonética ocorreu no Veneto e nos dialetos da Ístria, onde a consoante C no início das palavras sonorizou frequentemente para G, transformando *Cardinale* em *Gardinale*. Por fim, a queda da vogal final (apócope) não acentuada consolidou a forma *Gardenal* ou *Gardinal*. [1](#ref-1)
 
 O sobrenome comprova as concordâncias linguísticas entre a Ístria, o Friul, o Vêneto e o Trentino.
@@ -75,3 +77,4 @@ Seguindo o caminho indicado por Marino, realizei pesquisas adicionais em documen
 4. <span id="ref-4"></span>**DE FRANCESCHI, Camillo.** *Notizie storiche di Pola e delle sue famiglie*. In: **Archeografo Triestino**, Società di Minerva, Trieste, Vol. IX, pp. 282–284 (Transcrição dos registros de *Presbiter Johannes Cardinal* / *Pre' Zane Gardenal*). [Link](https://archive.org/details/archeografotrie09triegoog/page/n308/mode/2up)
 5. <span id="ref-5"></span>**COANA, Gaetano.** Atti e memorie della Società Istriana di Archeologia e Storia Patria, 1886, Volume II, Fascicolo 1o e 2o [Link](https://play.google.com/books/reader?id=siKcDFyRs0UC&pg=GBS.PA134&hl=it)
 6. <span id="ref-6"></span>**BENUSSI, Bernardo.** *Saggio di uma storia dell'Istria*. Trieste / Centro di Ricerche Storiche di Rovigno.
+7. <span id="ref-7"></span>**DE FELICE, Emidio.** *Dizionario dei cognomi italiani.* Milão: A. Mondadori, 1978. [Link](https://archive.org/details/bwb_O6-AZU-866)
